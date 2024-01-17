@@ -23,8 +23,6 @@ import LocationInformation from "../molecules/locationInformation.jsx";
 import PersonalInformation from "../molecules/personalInformation.jsx";
 import SecurityInformation from "../molecules/securityInformation.jsx";
 
-import Header from "../atoms/header.jsx";
-
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -145,18 +143,6 @@ export default function dashboardScreen() {
 
   return (
     <>
-    
-    {/* <div className="App">
-      <p>{dataUser.cell}</p>
-      <img
-        src={dataUser.picture.large}
-        alt={`${dataUser.name.first} ${dataUser.name.last}`}
-      />
-      <button onClick={randomUser}>
-        ¡Otro Usuario!
-      </button>
-    </div> */}
-
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar position="fixed" open={open}
