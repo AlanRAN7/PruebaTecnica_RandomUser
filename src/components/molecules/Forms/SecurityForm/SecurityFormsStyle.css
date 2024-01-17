@@ -1,0 +1,16 @@
+.SecurityFormsSection{
+    padding: 60px;
+/* background-color: pink; */
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 75px;
+}
+
+@media  (max-width: 600px){
+    .SecurityFormsSection{
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+    
+}

@@ -1,0 +1,86 @@
+.personalInformationSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 75vh;
+
+}
+
+.profilePicture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 25px;
+}
+
+.profilePicImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.personalFormSection{
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.titleSection{
+
+}
+.titleTypography{
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .titleSection{
+
+        margin-bottom: 5px;
+    }
+    
+    .titleTypography{
+        margin-top: 0;
+        text-align: center;
+    }
+    .personalInformationSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 100vh;
+    }
+
+    .profilePicture{
+    margin-top: 250px;
+    }
+
+    .profilePicImg{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    
+    }
+
+    .personalFormSection {
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+    }
+    
+  }
