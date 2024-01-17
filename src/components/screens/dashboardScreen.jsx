@@ -161,7 +161,7 @@ export default function dashboardScreen() {
           >
             <MenuIcon />
           </IconButton>
-          <img src="../../../public/assets/UserGeneratorSystem_Logo.png" alt="Logo" border="0" width="275px" height="50px"/>
+          <img src="/assets/UserGeneratorSystem_Logo.png" alt="Logo" border="0" width="275px" height="50px"/>
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>
